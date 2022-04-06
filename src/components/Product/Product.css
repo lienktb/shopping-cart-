@@ -1,0 +1,22 @@
+.quality{
+    height: 24px;
+    width: 48px;
+}
+
+.increment, .decrement {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.increment:hover, .decrement:hover{
+    border: 1px solid #077915;
+    color: #077915;
+}

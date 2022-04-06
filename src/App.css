@@ -1,38 +1,56 @@
-.App {
+.text-green {
+  color: #077915;
+}
+
+
+.hover-btn {
+  cursor: pointer;
+  color: #13501a;
+}
+
+p{
+  margin-bottom: 0!important;
+}
+
+
+.hover-effect:hover{
+  transition: all 0.3s;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1);;
+}
+
+.img-hover{
+  overflow: hidden;
+}
+
+.img-hover img {
+  transition: all 0.2s ease-in;
+}
+.img-hover:hover img{
+  
+  transform: scale(1.1);
+}
+
+.App ul.nav{
+  list-style: none;
   text-align: center;
+  display: block;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App ul.nav li{
+  display: inline-block;
+  padding: 10px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App ul.nav li a{
+  text-decoration: none;
+  color: #077915;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App ul.nav li a:hover{
+  color: #13501a;
 }
